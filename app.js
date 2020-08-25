@@ -12,7 +12,7 @@ app.get("/", function (req, res) { //solicitud de obtencion de pagina a partir d
 
 app.post("/", function (req, res) { // solicitud de peticion del servidor a la pagina
   const query = req.body.cityName; // valor provisto a partir del elemento con caracteristica name:cityName en el html y leido por el servidor a partir de req.body
-  const apiKey = "0039566ec769b762e78a0d3ecbbe715a"; //clave API generada a partir del sitio web openweathermap
+  const apiKey = ""; //clave API generada a partir del sitio web openweathermap
   const unit = "metric";
   const URL =
     "https://api.openweathermap.org/data/2.5/weather?q=" +
